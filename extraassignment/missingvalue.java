@@ -1,0 +1,34 @@
+import java.util.*;
+public class missingvalue
+{
+	public static void input(int arr[])
+	{
+		Scanner s=new Scanner(System.in);
+		for(int i=0;i<arr.length;i++)
+		{
+			System.out.println("enter element:");
+			arr[i]=s.nextInt();
+		}
+	}
+	public static int missing(int arr[],int n)
+	{
+		int form=n*(n+1)/2;
+		int sum=0;
+		for(int i=0;i<arr.length;i++)
+		{
+			sum=sum+arr[i];
+		}
+		return form-sum;
+	}
+	public static void main(String args[])
+	{
+		Scanner s=new Scanner(System.in);
+		System.out.println("enter size:");
+		int size=s.nextInt();
+		int arr[]=new int[size];
+		input(arr);
+		int m=missing(arr,size+1);
+		System.out.println("missing value:"+m);
+		
+	}
+}
