@@ -1,26 +1,30 @@
 import java.util.*;
 public class practice
 {
-	public static String sort(String str)
+	public static void shift(String str)
 	{
-		char ch[]=str.toCharArray();
-		for(int i=0;i<ch.length-1;i++)
+		int count=0;
+		for(int i=0;i<str.length();i++)
 		{
-			for(int j=i+1;j<ch.length;j++)
+			char ch=str.charAt(i);
+			if(ch=='a'||ch=='i'||ch=='o'||ch=='u'||ch=='e')
 			{
-				if(ch[i]>ch[j])
-				{
-					char temp=ch[i];
-					ch[i]=ch[j];
-					ch[j]=temp;
-				}
+				count++;
+				System.out.println(count);
+			}
+			else{
+               System.out.print(ch);
 			}
 		}
-		return new String(ch);
+		
 	}
 	public static void main(String args[])
 	{
-		String str="snehal";
-		System.out.println(sort(str));
+		Scanner s=new Scanner(System.in);
+		System.out.println("enter string:");
+		String str=s.nextLine();
+
+		shift(str);
 	}
 }
+
