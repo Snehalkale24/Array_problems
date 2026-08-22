@@ -44,34 +44,28 @@
 // }
 
 import java.util.*;
-public class secondlargest
-{
-    public static void input(int arr[]){
-        Scanner s=new Scanner(System.in);
-        for(int i=0;i<arr.length;i++){
-            System.out.println("ente element:");
-            arr[i]=s.nextInt();
-        }
-    }
-    public static int  secondlargest(int arr[]){
-        int firstlargest=0;
-        int secondlargest=0;
-        for(int i=0;i<arr.length;i++){
-            if(arr[i]>firstlargest){
-                secondlargest=firstlargest;
-                firstlargest=arr[i];
+public class secondlargest{
+    public static int secondlargest(int arr[])
+    {
+        int first=0;
+        int second=0;
+        for(int i=0;i<arr.length;i++)
+        {
+            if(arr[i]>first)
+            {
+                second=first;
+                first=arr[i]; 
+            }
+            else if(arr[i]> second)
+            {
+                second=arr[i];
             }
         }
-        return secondlargest;
+        return second;
     }
-    public static void main(String args[]){
-        Scanner s=new Scanner(System.in);
-        System.out.println("enter size of element:");
-        int size=s.nextInt();
-
-        int arr[]=new int[size];
-        input(arr);
-        int ss=secondlargest(arr);
-        System.out.println("secondlargest"+ss);
+    public static void main(String args[])
+    {
+        int[] second={232,122,123};
+        System.out.println(secondlargest(second));
     }
 }

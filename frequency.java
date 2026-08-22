@@ -38,24 +38,14 @@
 // 	}
 // }
 
-import java.util.*;
 public class frequency{
-	public static void input(int arr[])
+	public static int Frequency(int arr[],int freq)
 	{
-		Scanner s=new Scanner(System.in);
-		for(int i=0;i<arr.length;i++)
-		{
-		System.out.println("enter size:");
-		arr[i]=s.nextInt();
-	}
-}
-
-	public static int Frequency(int arr[],int key)
-	{
+		
 		int count=0;
 		for(int i=0;i<arr.length;i++)
 		{
-			if(arr[i]==key)
+			if(arr[i]==freq)
 			{
 				count++;
 			}
@@ -64,16 +54,8 @@ public class frequency{
 	}
 	public static void main(String args[])
 	{
-		Scanner s=new Scanner(System.in);
-		System.out.println("enter element:");
-		int size=s.nextInt();
-
-		int arr[]=new int[size];
-		input(arr);
-		System.out.println("enter Frequency:");
-		int key=s.nextInt();
-
-		int result=Frequency(arr,key);
-		System.out.println(result);
+		int arr[]={1,2,3,4,3,2,2};
+		int freq=2;
+		System.out.println(Frequency(arr,freq));
 	}
 }
