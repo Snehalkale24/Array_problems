@@ -27,47 +27,22 @@
 //     }
 // }
 
-import java.util.*;
 public class removeduplicate
 {
-	public static void input(int arr[])
-	{
-		Scanner s=new Scanner(System.in);
-		for(int i=0;i<arr.length;i++)
-		{
-			System.out.println("enter size:");
-			arr[i]=s.nextInt();
-		}
-	}
-	
 	public static void remove(int arr[])
 	{
-		
+		int flag=0;
 		for(int i=0;i<arr.length;i++)
 		{
-			int flag=0;
-			for(int j=0;j<i;j++){
+			for(int j=0;j<arr.length;j++)
+			{
 				if(arr[i]==arr[j])
 				{
 					flag=1;
 					break;
 				}
 			}
-			if(flag==0)
-{
-    System.out.print(arr[i]+" ");
+			
+		}
+	}
 }
-		}
-	}
-	public static void main(String args[])
-	{
-		Scanner s=new Scanner(System.in);
-		System.out.println("enter element:");
-		int size=s.nextInt();
-
-		int arr[]=new int[size];
-		input(arr);
-		remove(arr);
-
-		}
-	}
