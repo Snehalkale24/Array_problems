@@ -33,20 +33,20 @@
 // 	}
 // }
 import java.util.*;
-public class Average
-{
-	public static int average(int arr[])
+public class Average{
+	public static int avg(int no[])
 	{
-	int sum=0;
-	for(int i=0;i<arr.length;i++)
-	{
-     sum=sum+arr[i];
+		
+		int sum=0;
+		for(int i=0;i<no.length;i++)
+		{
+          sum=no[i]+sum;
+		}
+		return sum/no.length;
 	}
-	return sum/arr.length;
-}
-public static void main(String args[])
-{
-	int arr[]={1,1,1};
-	System.out.println(average(arr));
-}
+	public static void main(String args[])
+	{
+		int no[]={1,2,3,4};
+		System.out.println(avg(no));
+	}
 }
