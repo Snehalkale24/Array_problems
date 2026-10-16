@@ -35,24 +35,3 @@
 // }
 
 
-import java.util.*;
-
-public class firsttolastele {
-    public static void first(int no[]) {
-        int temp = no[0];
-
-        for (int i = 1; i < no.length; i++) {
-            no[i - 1] = no[i];
-        }
-
-        no[no.length - 1] = temp;
-    }
-
-    public static void main(String args[]) {
-        int no[] = {1, 2, 3, 4, 5};
-
-        first(no);
-
-        System.out.println(Arrays.toString(no));
-    }
-}
