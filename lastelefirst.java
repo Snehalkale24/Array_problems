@@ -38,23 +38,18 @@
 
 public class lastelefirst
 {
-	public static void lastele(int arr[])
+	public static void last(int no[])
 	{
-		int temp=arr[arr.length-1];
-		for(int i=arr.length-1;i>0;i--)
+		int temp=no[no.length-1];
+		for(int i=no.length-1;i>0;i--)
 		{
-			arr[i]=arr[i-1];
+			no[i]=no[i-1];
 		}
-		arr[0]=temp;
-
-		 for(int i = 0; i < arr.length; i++)
-        {
-            System.out.print(arr[i] + " ");
-        }
-    }
+		no[0]=temp;
+	}
 	public static void main(String args[])
 	{
-		int arr[]={1,2,3,4,5};
-		lastele(arr);
+		int no[]={1,2,3,4};
+		last(no);
 	}
 }
