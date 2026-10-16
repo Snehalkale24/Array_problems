@@ -26,3 +26,4 @@ public class prime{
 			System.out.println("not prime");
 		}
 	}
+}
