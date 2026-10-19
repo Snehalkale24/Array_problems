@@ -6,4 +6,5 @@ public class rac{
 
 
 	int a=12;
+	int b=1224;
 }
