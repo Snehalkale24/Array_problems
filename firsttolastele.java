@@ -57,20 +57,26 @@
 //     }
 // }
 
-public class firsttolastele{
-    public static void first(int arr[])
+public class duplicate{
+    public static void duplicate(int arr[])
     {
-        int temp=no[0];
-        for(int i=1;i<arr.length;i++)
+        for(int i=0;i<arr.length;i++)
         {
-            arr[i-1]=arr[i];
+            for(int j=i+1;j<arr.length;j++)
+            {
+                if(arr[i]==arr[j])
+                {
+                    System.out.println(arr[i]);
+                    break;
+                }
+            }
         }
-        no[no.length-1]=temp;
     }
     public static void main(String args[])
     {
-        int no[]={1,2,3,4};
-        first(no);
+        int arr[]={1,2,3,4,5,4,3};
+        duplicate(arr);
     }
 }
-}
+
+
