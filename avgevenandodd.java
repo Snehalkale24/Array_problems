@@ -56,26 +56,3 @@
 // 	System.out.println("odd"+ Odd(arr));
 // }
 // }
-public class avgevenandodd{
-	public static void evenandodd(int arr[])
-	{
-		int even=0;
-		int odd=0;
-		for(int i=0;i<arr.length;i++)
-		{
-			if(arr[i]%2==0)
-			{
-				System.out.println(even);
-			}
-			else{
-				System.out.println(odd);
-			}
-		}
-	}
-	public static void main(String args[])
-	{
-		int arr[]={1,2,3,6,2,4,2};
-		evenandodd(arr);
-	}
-
-}
