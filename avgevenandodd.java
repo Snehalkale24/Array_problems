@@ -90,8 +90,18 @@ public class avgevenandodd{
      	}
      public static void main(String args[])
      {
-     	int no[]={1,2,3,4,5,6};
+     	Scanner s=new Scanner(System.in);
+     	System.out.println("enter array size:");
+     	int size=s.nextInt();
+
+     	int no[]=new int[size];
+
+     	System.out.println("enter array element:");
+     	for(int i=0;i<no.length;i++)
+     	{
+     		no[i]=s.nextInt();
+     	}
      	System.out.println("even:"+even(no));
-     	System.out.println("odd"+odd(no));
+     	System.out.println("odd:"+odd(no));
      }
 	}
