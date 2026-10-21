@@ -71,7 +71,8 @@ public class avgevenandodd{
          sum=sum+no[i];
          count++;
      	}
-     	return sum/cnt;
+     }
+     	return sum/count;
      }
      public static int odd(int no[])
      {
@@ -84,14 +85,13 @@ public class avgevenandodd{
      			sum=sum+no[i];
      			count++;
      		}
-     		return sum/cnt;
      	}
-     }
+     		return sum/count;
+     	}
      public static void main(String args[])
      {
      	int no[]={1,2,3,4,5,6};
-     	System.out.println("even:"+even);
-     	System.out.println("odd"+odd);
+     	System.out.println("even:"+even(no));
+     	System.out.println("odd"+odd(no));
      }
 	}
-}
