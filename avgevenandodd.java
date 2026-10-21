@@ -56,3 +56,42 @@
 // 	System.out.println("odd"+ Odd(arr));
 // }
 // }
+
+
+import java.util.*;
+public class avgevenandodd{
+	public static int even(int no[])
+	{
+     int sum=0;
+     int count=0;
+     for(int i=0;i<no.length;i++)
+     {
+     	if(no[i]%2==0)
+     	{
+         sum=sum+no[i];
+         count++;
+     	}
+     	return sum/cnt;
+     }
+     public static int odd(int no[])
+     {
+     	int sum=0;
+     	int count=0;
+     	for(int i=0;i<no.length;i++)
+     	{
+     		if(no[i]%2!=0)
+     		{
+     			sum=sum+no[i];
+     			count++;
+     		}
+     		return sum/cnt;
+     	}
+     }
+     public static void main(String args[])
+     {
+     	int no[]={1,2,3,4,5,6};
+     	System.out.println("even:"+even);
+     	System.out.println("odd"+odd);
+     }
+	}
+}
