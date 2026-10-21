@@ -50,31 +50,31 @@
 // 	}
 // }
 
-public class merge
-{
-	public static void merge(int arr1[],int arr2[],int arr3[])
-	{
-		int k=0;
-     for(int i=0;i<arr1.length;i++)
-     {
-     	arr3[k]=arr1[i];
-     	k++;
-     }
-     for(int i=0;i<arr2.length;i++)
-     {
-     	arr3[k]=arr2[i];
-     	k++;
-     }
-     for(int i=0;i<arr3.length;i++)
-     {
-     	System.out.println(arr3[i]);
-     }
-	}
-	public static void main(String args[])
-	{
-		int arr1[]={1,2,3};
-		int arr2[]={4,5};
-		int arr3[]=new int[arr1.length+arr2.length];
-		merge(arr1,arr2,arr3);
-	}
-}
+// public class merge
+// {
+// 	public static void merge(int arr1[],int arr2[],int arr3[])
+// 	{
+// 		int k=0;
+//      for(int i=0;i<arr1.length;i++)
+//      {
+//      	arr3[k]=arr1[i];
+//      	k++;
+//      }
+//      for(int i=0;i<arr2.length;i++)
+//      {
+//      	arr3[k]=arr2[i];
+//      	k++;
+//      }
+//      for(int i=0;i<arr3.length;i++)
+//      {
+//      	System.out.println(arr3[i]);
+//      }
+// 	}
+// 	public static void main(String args[])
+// 	{
+// 		int arr1[]={1,2,3};
+// 		int arr2[]={4,5};
+// 		int arr3[]=new int[arr1.length+arr2.length];
+// 		merge(arr1,arr2,arr3);
+// 	}
+// }
