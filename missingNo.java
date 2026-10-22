@@ -24,13 +24,13 @@ public class missingNo{
 		int total=0;
 		for(int i=0;i<no.length;i++)
 		{
-			total=no[i]+total;
+			total=total+no[i];
 		}
 		return sum-total;
 	}
 	public static void main(String args[])
 	{
-		int no[]={1,2,3,4,5};
-		System.out.println(missin(no,6));
+		int no[]={1,2,3,4};
+		System.out.println(missing(no,5));
 	}
 }
