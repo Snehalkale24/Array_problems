@@ -42,6 +42,7 @@ public class secondlargest{
     }
     public static void main(String args[])
     {
-        
+        int second[]={1,2,3,4};
+        System.out.println(second(second));
     }
 }
