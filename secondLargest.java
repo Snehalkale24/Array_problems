@@ -40,4 +40,8 @@ public class secondlargest{
         }
         return second;
     }
+    public static void main(String args[])
+    {
+        
+    }
 }
