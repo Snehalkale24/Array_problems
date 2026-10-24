@@ -38,5 +38,6 @@ public class secondlargest{
                 second=arr[i]
             }
         }
+        return second;
     }
 }
