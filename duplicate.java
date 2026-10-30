@@ -23,5 +23,8 @@
 
 
 public class duplicate{
-	
+	public static int duplicate(int no[])
+	{
+		
+	}
 }
