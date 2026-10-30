@@ -32,6 +32,7 @@ public class duplicate{
 				if(no[i]==no[j])
 				{
 					System.out.println(no[i]);
+					break;
 				}
 			}
 		}
