@@ -36,3 +36,39 @@
 // 	}
 // }
 
+// public class lastelefirst
+// {
+// 	public static void last(int no[])
+// 	{
+// 		int temp=no[no.length-1];
+// 		for(int i=no.length-1;i>0;i--)
+// 		{
+// 			no[i]=no[i-1];
+// 		}
+// 		no[0]=temp;
+// 	}
+// 	public static void main(String args[])
+// 	{
+// 		int no[]={1,2,3,4};
+// 		last(no);
+// 	}
+// }
+
+
+
+public class lastelefirst{
+	public static int last(int no[])
+	{
+		int temp=no[no.length-1];
+		for(int i=no.length-1;i>=0;i--)
+		{
+			no[i]=no[i-1];
+		}
+		no[0]=temp;
+	}
+	public static void main(String args[])
+	{
+		int no[]={1,2,3,4};
+		
+	}
+}
