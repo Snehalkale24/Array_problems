@@ -61,6 +61,11 @@ public  class Average{
 		{
 			sum=no[i]+sum;
 		}
-		return 
+		return sum/no.length;
+	}
+	public static void main(String args[])
+	{
+		int no[]={1,2,3,4,5};
+		System.out.println(avg(no));
 	}
 }
