@@ -27,7 +27,10 @@ public class duplicate{
 	{
 		for(int i=0;i<no.length;i++)
 		{
-			for()
+			for(int j=i+1;j<no.length;j++)
+			{
+				if(no)
+			}
 		}
 	}
 }
