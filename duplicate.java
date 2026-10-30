@@ -29,7 +29,10 @@ public class duplicate{
 		{
 			for(int j=i+1;j<no.length;j++)
 			{
-				if(no)
+				if(no[i]==no[j])
+				{
+					
+				}
 			}
 		}
 	}
