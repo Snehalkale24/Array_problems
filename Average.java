@@ -52,20 +52,3 @@
 // }
 
 
-import java.util.*;
-public  class Average{
-	public static int avg(int no[])
-	{
-		int sum=0;
-		for(int i=0;i<no.length;i++)
-		{
-			sum=no[i]+sum;
-		}
-		return sum/no.length;
-	}
-	public static void main(String args[])
-	{
-		int no[]={1,2,3,4,5};
-		System.out.println(avg(no));
-	}
-}

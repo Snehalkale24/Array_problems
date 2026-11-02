@@ -22,7 +22,8 @@
 
 
 
-public class duplicate{
+public class duplicate
+{
 	public static int duplicate(int no[])
 	{
 		for(int i=0;i<no.length;i++)
