@@ -31,6 +31,6 @@ import java.util.*;
 public class targetsum{
 	public static int[] two(int no[],int target)
 	{
-		
+		int sum=0;
 	}
 }
