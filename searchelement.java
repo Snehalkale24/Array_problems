@@ -19,7 +19,7 @@ public class searchelement{
 			System.out.println("element found:");
 		}
 		else{
-			S
+			System.out.println("not found:");
 		}
 	}
 }
