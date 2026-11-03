@@ -35,5 +35,10 @@ public class moveZero{
 				j++;
 			}
 		}
+		while(j<arr.length)
+		{
+			arr[j]=0;
+			j++;
+		}
 	}
 }
