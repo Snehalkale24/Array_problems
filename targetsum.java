@@ -21,5 +21,16 @@
 // 		int nums[]={1,2,7,4,3};
 // 		System.out.println("target: " + target);
 // System.out.println("nums: " + Arrays.toString(nums));
+// int result[]=twosum(nums,target);
+// System.out.println("index:"+Arrays.toString(result));
 // 	}
 // }
+
+
+import java.util.*;
+public class targetsum{
+	public static int[] two(int no[],int target)
+	{
+		
+	}
+}
