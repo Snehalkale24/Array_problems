@@ -60,23 +60,3 @@
 // 	}
 // }
 
-public class frequency{
-    public static int freq(int no[],int frequency)
-    {
-      
-        int count=0;
-        for(int i=0;i<no.length;i++)
-        {
-            if(no[i]==frequency){
-              count++;
-            }
-        }
-        return count;
-    }
-    public static void main(String args[])
-    {
-        int no[]={1,2,2,3,4,5,6};
-        int frequency=2;
-        System.out.println(freq(no,frequency));
-    }
-}
