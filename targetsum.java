@@ -29,5 +29,18 @@
 
 import java.util.*;
 public class targersum{
-	public 
+	public static int[] two(int no[],int target)
+	{
+		int sum=0;
+		for(int i=0;i<no.length;i++)
+		{
+			for(int j=i+1;j<no.length;j++)
+			{
+				if(no[i]+no[j]==target)
+				{
+					return new int[]{i,j};
+				}
+			}
+		}
+	}
 }
