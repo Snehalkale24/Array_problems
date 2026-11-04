@@ -81,4 +81,4 @@ public class Frequency{
         int freq=2;
         System.out.println(freq(arr,freq));
     }
-}
+}}
