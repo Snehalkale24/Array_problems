@@ -27,30 +27,3 @@
 // }
 
 
-import java.util.*;
-public class targetsum{
-	public static int[] two(int no[],int target)
-	{
-		int sum=0;
-		for(int i=0;i<no.length;i++)
-		{
-			fot(int j=i+1;j<no.length;j++)
-			{
-				if(no[i]+no[j]==target)
-				{
-					return new int[]{i,j};
-				}
-			}
-		}
-		return new int[]{};
-	}
-	public static void main(String args[])
-	{
-		int no[]={1,2,3,4,5,6};
-		int target=5;
-		System.out.println("target:"+target);
-		System.out.println("no:"+Arrays.toString(no));
-		int result[]=two(no,target);
-		System.out.println("index:"+Arrays.toString(result));
-	}
-}

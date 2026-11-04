@@ -56,5 +56,5 @@ public class sorted{
 	{
 		int arr[]={12,3,4,5,3};
 		System.out.println(sort(arr));
-	}]
+	}
 }
