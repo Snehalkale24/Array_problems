@@ -60,3 +60,25 @@
 // 	}
 // }
 
+import java.util.*;
+public class Frequency{
+    public static int freq(int no[],int freq)
+    {
+        int count=0;
+        for(int i=0;i<no.length;i++)
+        {
+            if(arr[i]==freq)
+            {
+                count++;
+            }
+        }
+        return count;
+
+    }
+    public static void main(String args[])
+    {
+        int arr[]={1,2,3,4,5};
+        int freq=2;
+        System.out.println(freq(arr,freq));
+    }
+}
