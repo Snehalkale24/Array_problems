@@ -42,5 +42,14 @@ public class targersum{
 				}
 			}
 		}
+		return new int[]{};
+	}
+	public static void main(String args[])
+	{
+		int target=5;
+		int no[]={1,2,3,4,5};
+		System.out.println("target:"+target);
+		int result[]=two(target,no);
+		System.out.println("index:"+Arrays.toString(result));
 	}
 }
