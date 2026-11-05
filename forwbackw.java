@@ -66,27 +66,3 @@
 // 	}
 // }
 
-public class forwbackw{
-	public static void forw(int no[])
-	{
-		for(int i=0;i<no.length;i++)
-		{
-			System.out.println(no[i]+" ");
-		}
-		System.out.println();
-	}
-	public static void backw(int no[])
-	{
-		for(int i=no.length-1;i>=0;i--)
-		{
-			System.out.println(no[i]+ " ");
-		}
-		System.out.println();
-	}
-	public static void main(String args[])
-	{
-		int no[]={1,2,3,4,5,6};
-		forw(no);
-		backw(no);
-	}
-}
