@@ -22,25 +22,3 @@
 
 
 
-public class duplicate
-{
-	public static int duplicate(int no[])
-	{
-		for(int i=0;i<no.length;i++)
-		{
-			for(int j=i+1;j<no.length;j++)
-			{
-				if(no[i]==no[j])
-				{
-					System.out.println(no[i]);
-					break;
-				}
-			}
-		}
-	}
-	public static void main(String args[])
-	{
-		int arr[]={1,2,3,4,5};
-		duplicate(arr);
-	}
-}
