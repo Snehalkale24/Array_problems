@@ -40,6 +40,20 @@ public class palindrome
 			{
 				return false;
 			}
+			start++;
+			last--;
+		}
+		return true;
+	}
+	public static void main(String args[])
+	{
+		int no[]={1,2,3,4,4,5};
+		if(check(no))
+		{
+			System.out.println("palindrome:");
+		}
+		else{
+			System.out.println("not");
 		}
 	}
 }
