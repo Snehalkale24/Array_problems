@@ -65,6 +65,14 @@ public class prime{
 		{
 			return false;
 		}
-		
+		for(int i=2;i<no.length;i++)
+		{
+			if(no[i]%2==0)
+			{
+				return false;
+			}
+		}
+		return true;
 	}
+	
 }
