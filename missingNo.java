@@ -18,20 +18,5 @@
 
 import java.util.*;
 public class missingNo{
-	public static int missing(int no[],int n)
-	{
-		int sum=n*(n+1)/2;
-		int result=0;
-		for(int i=0;i<no.length;i++)
-		{
-			result=result+no[i];
-		}
-		return sum-result;
-	}
-	public static void main(String args[])
-	{
-		int no[]={1,2,3,5,6};
-		int n=6;
-		System.out.println(missing(no,n));
-	}
+	
 }
