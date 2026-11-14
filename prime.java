@@ -58,3 +58,13 @@
 // }
 // }
 
+public class prime{
+	public static boolean check(int no[])
+	{
+		if(no<=1)
+		{
+			return false;
+		}
+		
+	}
+}
