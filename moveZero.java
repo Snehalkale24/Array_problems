@@ -22,7 +22,7 @@
 // 	}
 // }
 
-public class movezero{
+public class moveZero{
 	public static void main(String args[])
 	{
 		int arr[]={12,2,3,0,2,3,0,1,0};
