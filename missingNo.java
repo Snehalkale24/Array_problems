@@ -30,8 +30,8 @@ public class missingNo{
 	}
 	public static void main(String args[])
 	{
-		int n=6;
+
 		int no[]={1,3,4,5,6};
-		System.out.println(missingNo(n,no));
+		System.out.println(missing(no,6));
 	}
 }
