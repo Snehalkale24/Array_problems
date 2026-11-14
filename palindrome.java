@@ -27,3 +27,19 @@
 // }
 // }
 
+
+public class palindrome
+{
+	public static boolean check(int no[])
+	{
+		int start=0;
+		int last=no.length-1;
+		while(start<last)
+		{
+			if(no[start]!=no[last])
+			{
+				return false;
+			}
+		}
+	}
+}
