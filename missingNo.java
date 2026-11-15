@@ -35,4 +35,3 @@ public class missingNo{
 		System.out.println(missing(no,6));
 	}
 }
-cdf
